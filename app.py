@@ -3,10 +3,10 @@ import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()
 
-from rag.pdf_loader import load_pdf
-from rag.rag_chain import ask_question
-from agents.summarizer import summarize_text
-from agents.quiz_agent import generate_quiz
+from pdf_loader import load_pdf
+from rag_chain import ask_question
+from summarizer import summarize_text
+from quiz_agent import generate_quiz
 
 
 st.set_page_config(
