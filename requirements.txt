@@ -1,8 +1,8 @@
 streamlit
 langchain
-langgraph
-langchain-google-genai
+langchain-community
+langchain-groq
+python-dotenv
+pypdf
 faiss-cpu
 sentence-transformers
-pypdf
-python-dotenv
